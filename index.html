@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="top">
+            <div class="logo">
+                <img src="./images/odin-logo.png" alt="Odin Logo">
+                <div class="text">ODIN SIGN-UP FORM</div>
+            </div>
+
+            <div class="text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started.
+            </div>
+            <div class="text">You <em>know</em> you want to.</div>
+        </div>
+      
+
+        <form action="#">
+            <div class="mid">
+                <div class="text">Let's do this!</div>
+                
+                <div class="inputs">
+                    <div class="input">
+                        <label for ="firstName">First Name</label>
+                        <input type="text" id="firstName" maxlength="20" required>    
+                    </div>
+                    <div class="input">
+                        <label for ="lastName">Last Name</label>
+                        <input type="text" id="lastName" maxlength="20" required>    
+                    </div>
+                    <div class="input">                  
+                        <label for ="email">Email</label>
+                        <input type="email" id="email" maxlength="30" placeholder="yourgmail@gmail.com" required>
+                    </div>
+                    <div class="input">   
+                        <label for ="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" pattern="[0-9]{11}" maxlength="11" placeholder="09123456789" required>
+                    </div>
+                    <div class="input">         
+                        <label for ="password">Password</label>
+                        <input type="password" id="password" maxlength="25" required>
+                    </div>
+                    <div class="input">
+                        <label for ="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" maxlength="25" required>
+                        <div class="error"></div>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="bottom">
+                <button type="default">Create Account</button>
+                <div class="text">Already have an account? <span>Log in</span></div>
+            </div>
+
+            </div>
+        </form>
+
+        <div class="photoCredit">Photo by <u>Ian Valerio</u> on <u>Unsplash</u></div>
+    
+
+        <footer class="footer">
+            <p>Created by: mustbeneru © <script>document.write( new Date().getFullYear() );</script></p>
+        </footer>
+
+        <script src="./script.js" defer></script>
+
+    </body>
+
+</html>

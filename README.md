@@ -1,1 +1,1 @@
-# sign-up-form
+This is a Sign-up Form Project from The Odin Project created using HTML, CSS, and JavaScript.
