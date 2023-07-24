@@ -8,6 +8,7 @@ submit.addEventListener('click', (e) => {
     console.log(password.value, confirmPassword.value)
     if (confirmPassword.value !== password.value) {
         error.textContent = 'Password does not match!'
+        return;
     } else {
         error.textContent = ''
         form.submit();
